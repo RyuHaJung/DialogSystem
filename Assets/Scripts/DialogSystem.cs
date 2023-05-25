@@ -139,6 +139,26 @@ public class DialogSystem : MonoBehaviour
         speaker.imgCharacter.color = color;
     }
 
+    private void SetActiveObjectsOFF(SpeakerUI speaker, bool visible)
+    {
+        speaker.imageDialog.gameObject.SetActive(visible);
+        speaker.textName.gameObject.SetActive(visible);
+        speaker.textDialogue.gameObject.SetActive(visible);
+        //화살표 대사가 종료되었을 때만 활성화 되기 때문에 
+        speaker.objectArrow.SetActive(false);
+
+        Color color = speaker.imgCharacter.color;
+        if (visible)
+        {
+            color.a = 1;
+        }
+        else
+        {
+            color.a = 0.0f;
+        }
+        speaker.imgCharacter.color = color;
+    }
+
     private void SetAllClose()
     {
         select_001.SetActive(false);
@@ -149,14 +169,32 @@ public class DialogSystem : MonoBehaviour
         }
     }
 
+    private void SetAllCloseOFF()
+    {
+        select_001.SetActive(false);
+        select_002.SetActive(false);
+        for (int i = 0; i < speakers.Length; i++)
+        {
+            SetActiveObjectsOFF(speakers[i], false);
+        }
+    }
+
     private void SetNextDialog(int currentIndex)
     {
         SetAllClose();
         currentDialogIndex = currentIndex;          //다음 대사를 진행하도록
         currentSpeakerIndex = dialogs[currentDialogIndex].speakerUIindex;       //현재 화자 순번 설정
-        SetActiveObjects(speakers[currentSpeakerIndex], true);                  //현재 화자의 대화 관련 오브젝트 활성화
-        speakers[currentSpeakerIndex].textName.text = dialogs[currentDialogIndex].name; //현재 화자의 이름 텍스트 설정
-        StartCoroutine("OnTypingText");
+        if(currentSpeakerIndex < 0)
+        {
+            SetAllCloseOFF();
+        }
+        else
+        {
+            SetActiveObjects(speakers[currentSpeakerIndex], true);                  //현재 화자의 대화 관련 오브젝트 활성화
+            speakers[currentSpeakerIndex].textName.text = dialogs[currentDialogIndex].name; //현재 화자의 이름 텍스트 설정
+            StartCoroutine("OnTypingText");
+        }
+       
     }
 
     private void SetNextSelect(int currentIndex)
@@ -235,6 +273,11 @@ public class DialogSystem : MonoBehaviour
                 return false;
             }
 
+            if (dialogs[currentDialogIndex].speakerUIindex == -1)
+            {
+                SetNextDialog(dialogs[currentDialogIndex].nextindex);
+            }
+
             if (dialogs[currentDialogIndex].selectIndex != -100)
             {
                 SetNextSelect(dialogs[currentDialogIndex].selectIndex);
@@ -246,7 +289,7 @@ public class DialogSystem : MonoBehaviour
             else if (dialogs[currentDialogIndex].nextindex != -100)
             {
                 SetNextDialog(dialogs[currentDialogIndex].nextindex);
-            }
+            }           
             else
             {
                 SetAllClose();
