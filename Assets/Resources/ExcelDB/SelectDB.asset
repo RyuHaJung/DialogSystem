@@ -24,12 +24,3 @@ MonoBehaviour:
       nextindex_01: 13
       nextindex_02: 14
       nextindex_03: 15
-    - index: 1
-      selectAmount: 2
-      selectMain: "\uACE0\uB974\uACE0 \uACE8\uB77C\uB77C"
-      select_01: "\u314E"
-      select_02: "\u3147"
-      select_03: "\u3134"
-      nextindex_01: 13
-      nextindex_02: 14
-      nextindex_03: 15

@@ -1,9 +1,9 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;               //UI¸¦ ÄÁÆ®·Ñ ÇÒ °ÍÀÌ¶ó¼­ Ãß°¡
-using System;                       //Arry ¼öÁ¤ ±â´ÉÀ» »ç¿ëÇÏ±â À§ÇØ Ãß°¡
-using UnityEngine.SceneManagement;  //Scene ÀÌµ¿À» À§ÇØ Ãß°¡ 
+using UnityEngine.UI;               //UIï¿½ï¿½ ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½Ì¶ï¿½ ï¿½ß°ï¿½
+using System;                       //Arry ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ï±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ß°ï¿½
+using UnityEngine.SceneManagement;  //Scene ï¿½Ìµï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ß°ï¿½ 
 
 public class DialogSystem : MonoBehaviour
 {
@@ -13,23 +13,23 @@ public class DialogSystem : MonoBehaviour
         SELECTBUTTON
     }
 
-    public Image BackGround;                            //¹è°æÀÌ¹ÌÁö
+    public Image BackGround;                            //ï¿½ï¿½ï¿½ï¿½Ì¹ï¿½ï¿½ï¿½
 
     [SerializeField]
-    private SpeakerUI[] speakers;                       //´ëÈ­¿¡ Âü¿©ÇÏ´Â Ä³¸¯ÅÍµéÀÇ UI ¹è¿­
+    private SpeakerUI[] speakers;                       //ï¿½ï¿½È­ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½ Ä³ï¿½ï¿½ï¿½Íµï¿½ï¿½ï¿½ UI ï¿½è¿­
     [SerializeField]
-    private DialogData[] dialogs;                       //ÇöÀç ºÐ±âÀÇ ´ë»ç ¸ñ·Ï ¹è¿­
+    private DialogData[] dialogs;                       //ï¿½ï¿½ï¿½ï¿½ ï¿½Ð±ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½è¿­
     [SerializeField]
-    private SelectData[] selectData;                       //ÇöÀç ºÐ±âÀÇ ´ë»ç ¸ñ·Ï ¹è¿­
+    private SelectData[] selectData;                       //ï¿½ï¿½ï¿½ï¿½ ï¿½Ð±ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½è¿­
     [SerializeField]
-    private bool DialogInit = true;                     //ÀÚµ¿ ½ÃÀÛ ¿©ºÎ
+    private bool DialogInit = true;                     //ï¿½Úµï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
     [SerializeField]
-    private bool dialogsDB = false;                     //DB¸¦ ÅëÇØ ÀÐ´Â°Í ¼³Á¤
+    private bool dialogsDB = false;                     //DBï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ð´Â°ï¿½ ï¿½ï¿½ï¿½ï¿½
 
-    public int currentDialogIndex = -1;                 //ÇöÀç ´ë»ç ¼ø¹ø
-    public int currentSpeakerIndex = 0;                 //ÇöÀç ¸»À» ÇÏ´Â È­ÀÚÀÇ Speakers ¹è¿­ ¼ø¹ø
-    public float typingSpeed = 0.1f;                    //ÅØ½ºÆ® Å¸ÀÌÇÎ È¿°úÀÇ Àç»ý¼Óµµ
-    public bool isTypingEffect = false;                 //ÅØ½ºÆ® Å¸ÀÌÇÎ È¿°ú°¡ Àç»ýÁßÀÎÁö ÆÇ´Ü.
+    public int currentDialogIndex = -1;                 //ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+    public int currentSpeakerIndex = 0;                 //ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ï´ï¿½ È­ï¿½ï¿½ï¿½ï¿½ Speakers ï¿½è¿­ ï¿½ï¿½ï¿½ï¿½
+    public float typingSpeed = 0.1f;                    //ï¿½Ø½ï¿½Æ® Å¸ï¿½ï¿½ï¿½ï¿½ È¿ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Óµï¿½
+    public bool isTypingEffect = false;                 //ï¿½Ø½ï¿½Æ® Å¸ï¿½ï¿½ï¿½ï¿½ È¿ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ç´ï¿½.
 
     public GameObject select_001;
     public Text selectTextMain_01;
@@ -118,13 +118,13 @@ public class DialogSystem : MonoBehaviour
         }
     }
 
-    //ÇÔ¼ö¸¦ ÅëÇØ UI°¡ º¸¿©Áö°Å³ª ¾Èº¸¿©Áö°Ô ¼³Á¤
+    //ï¿½Ô¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ UIï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å³ï¿½ ï¿½Èºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
     private void SetActiveObjects(SpeakerUI speaker, bool visible)  
     {
         speaker.imageDialog.gameObject.SetActive(visible);
         speaker.textName.gameObject.SetActive(visible);
         speaker.textDialogue.gameObject.SetActive(visible);
-        //È­»ìÇ¥ ´ë»ç°¡ Á¾·áµÇ¾úÀ» ¶§¸¸ È°¼ºÈ­ µÇ±â ¶§¹®¿¡ 
+        //È­ï¿½ï¿½Ç¥ ï¿½ï¿½ç°¡ ï¿½ï¿½ï¿½ï¿½Ç¾ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ È°ï¿½ï¿½È­ ï¿½Ç±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 
         speaker.objectArrow.SetActive(false);
 
         Color color = speaker.imgCharacter.color;
@@ -144,7 +144,7 @@ public class DialogSystem : MonoBehaviour
         speaker.imageDialog.gameObject.SetActive(visible);
         speaker.textName.gameObject.SetActive(visible);
         speaker.textDialogue.gameObject.SetActive(visible);
-        //È­»ìÇ¥ ´ë»ç°¡ Á¾·áµÇ¾úÀ» ¶§¸¸ È°¼ºÈ­ µÇ±â ¶§¹®¿¡ 
+        //È­ï¿½ï¿½Ç¥ ï¿½ï¿½ç°¡ ï¿½ï¿½ï¿½ï¿½Ç¾ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ È°ï¿½ï¿½È­ ï¿½Ç±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 
         speaker.objectArrow.SetActive(false);
 
         Color color = speaker.imgCharacter.color;
@@ -182,16 +182,16 @@ public class DialogSystem : MonoBehaviour
     private void SetNextDialog(int currentIndex)
     {
         SetAllClose();
-        currentDialogIndex = currentIndex;          //´ÙÀ½ ´ë»ç¸¦ ÁøÇàÇÏµµ·Ï
-        currentSpeakerIndex = dialogs[currentDialogIndex].speakerUIindex;       //ÇöÀç È­ÀÚ ¼ø¹ø ¼³Á¤
+        currentDialogIndex = currentIndex;          //ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ç¸¦ ï¿½ï¿½ï¿½ï¿½ï¿½Ïµï¿½ï¿½ï¿½
+        currentSpeakerIndex = dialogs[currentDialogIndex].speakerUIindex;       //ï¿½ï¿½ï¿½ï¿½ È­ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
         if(currentSpeakerIndex < 0)
         {
             SetAllCloseOFF();
         }
         else
         {
-            SetActiveObjects(speakers[currentSpeakerIndex], true);                  //ÇöÀç È­ÀÚÀÇ ´ëÈ­ °ü·Ã ¿ÀºêÁ§Æ® È°¼ºÈ­
-            speakers[currentSpeakerIndex].textName.text = dialogs[currentDialogIndex].name; //ÇöÀç È­ÀÚÀÇ ÀÌ¸§ ÅØ½ºÆ® ¼³Á¤
+            SetActiveObjects(speakers[currentSpeakerIndex], true);                  //ï¿½ï¿½ï¿½ï¿½ È­ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È­ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ® È°ï¿½ï¿½È­
+            speakers[currentSpeakerIndex].textName.text = dialogs[currentDialogIndex].name; //ï¿½ï¿½ï¿½ï¿½ È­ï¿½ï¿½ï¿½ï¿½ ï¿½Ì¸ï¿½ ï¿½Ø½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½
             StartCoroutine("OnTypingText");
         }
        
@@ -224,13 +224,18 @@ public class DialogSystem : MonoBehaviour
         int index = 0;
         isTypingEffect = true;
 
-        if(dialogs[currentDialogIndex].characterPath.CompareTo("None") != 0) //NoneÀÌ ¾Æ´Ò°æ¿ì DB¿¡ ³Ö¾î³õÀº °æ·ÎÀÇ Ä³¸¯ÅÍ ÀÌ¹ÌÁö¸¦ °¡Á®¿Â´Ù.
+        if(dialogs[currentDialogIndex].characterPath.CompareTo("None") != 0) //Noneï¿½ï¿½ ï¿½Æ´Ò°ï¿½ï¿½ DBï¿½ï¿½ ï¿½Ö¾ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ Ä³ï¿½ï¿½ï¿½ï¿½ ï¿½Ì¹ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Â´ï¿½.
         {
+            speakers[currentSpeakerIndex].imgCharacter.gameObject.SetActive(true);
             speakers[currentSpeakerIndex].imgCharacter.sprite =
                 Resources.Load<Sprite>(dialogs[currentDialogIndex].characterPath);
         }
+        else
+        {
+            speakers[currentSpeakerIndex].imgCharacter.gameObject.SetActive(false);
+        }
 
-        if (dialogs[currentDialogIndex].backGroundPath.CompareTo("None") != 0) //NoneÀÌ ¾Æ´Ò°æ¿ì DB¿¡ ³Ö¾î³õÀº °æ·ÎÀÇ ¹è°æ ÀÌ¹ÌÁö¸¦ °¡Á®¿Â´Ù
+        if (dialogs[currentDialogIndex].backGroundPath.CompareTo("None") != 0) //Noneï¿½ï¿½ ï¿½Æ´Ò°ï¿½ï¿½ DBï¿½ï¿½ ï¿½Ö¾ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Ì¹ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Â´ï¿½
         {
             BackGround.sprite =
                 Resources.Load<Sprite>(dialogs[currentDialogIndex].backGroundPath);
@@ -239,7 +244,7 @@ public class DialogSystem : MonoBehaviour
         while (index < dialogs[currentDialogIndex].dialogue.Length + 1)
         {
             speakers[currentSpeakerIndex].textDialogue.text =
-                dialogs[currentDialogIndex].dialogue.Substring(0, index);   //ÅØ½ºÆ®¸¦ ÇÑ±ÛÀÚ¾¿ Å¸ÀÌÇÎ Àç»ý 
+                dialogs[currentDialogIndex].dialogue.Substring(0, index);   //ï¿½Ø½ï¿½Æ®ï¿½ï¿½ ï¿½Ñ±ï¿½ï¿½Ú¾ï¿½ Å¸ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ 
 
             index++;
             yield return new WaitForSeconds(typingSpeed);
@@ -252,7 +257,7 @@ public class DialogSystem : MonoBehaviour
 
     public bool UpdateDialog(int currentIndex, bool InitType)
     {
-        //´ë»ç ºÐ±â°¡ 1È¸¸¸ È£Ãâ 
+        //ï¿½ï¿½ï¿½ ï¿½Ð±â°¡ 1È¸ï¿½ï¿½ È£ï¿½ï¿½ 
         if(DialogInit == true && InitType == true)
         {
             SetAllClose();
@@ -265,9 +270,9 @@ public class DialogSystem : MonoBehaviour
             if(isTypingEffect == true)
             {
                 isTypingEffect = false;
-                StopCoroutine("OnTypingText");          //Å¸ÀÌÇÎ È¿°ú¸¦ ÁßÁöÇÏ°í , ÇöÀç ´ë»ç ÀüÃ¼¸¦ Ãâ·ÂÇÑ´Ù.
+                StopCoroutine("OnTypingText");          //Å¸ï¿½ï¿½ï¿½ï¿½ È¿ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï°ï¿½ , ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½Ã¼ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ñ´ï¿½.
                 speakers[currentSpeakerIndex].textDialogue.text = dialogs[currentDialogIndex].dialogue;
-                //´ë»ç°¡ ¿Ï·áµÇ¾úÀ» ¶§ Ä¿¼­ 
+                //ï¿½ï¿½ç°¡ ï¿½Ï·ï¿½Ç¾ï¿½ï¿½ï¿½ ï¿½ï¿½ Ä¿ï¿½ï¿½ 
                 speakers[currentSpeakerIndex].objectArrow.SetActive(true);
 
                 return false;
@@ -303,36 +308,36 @@ public class DialogSystem : MonoBehaviour
     [System.Serializable]
     public struct SpeakerUI
     {
-        public Image imgCharacter;          //Ä³¸¯ÅÍ ÀÌ¹ÌÁö
-        public Image imageDialog;           //´ëÈ­Ã¢ ImageUI
-        public Text textName;               //ÇöÀç ´ë»çÁßÀÎ Ä³¸¯ÅÍ ÀÌ¸§ Ãâ·Â TextUI
-        public Text textDialogue;           //ÇöÀç ´ë»ç Ãâ·Â Text UI
-        public GameObject objectArrow;      //´ë»ç°¡ ¿Ï·áµÇ¾úÀ» ¶§ Ãâ·ÂÇÏ´Â Ä¿¼­ ¿ÀºêÁ§Æ®
+        public Image imgCharacter;          //Ä³ï¿½ï¿½ï¿½ï¿½ ï¿½Ì¹ï¿½ï¿½ï¿½
+        public Image imageDialog;           //ï¿½ï¿½È­Ã¢ ImageUI
+        public Text textName;               //ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Ä³ï¿½ï¿½ï¿½ï¿½ ï¿½Ì¸ï¿½ ï¿½ï¿½ï¿½ TextUI
+        public Text textDialogue;           //ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ Text UI
+        public GameObject objectArrow;      //ï¿½ï¿½ç°¡ ï¿½Ï·ï¿½Ç¾ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ï´ï¿½ Ä¿ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®
     }
 
     [System.Serializable]
     public struct DialogData
     {
-        public int index;                   //´ë»ç ¹øÈ£
-        public int speakerUIindex;          //½ºÇÇÄ¿ ¹è¿­ ¹øÈ£
-        public string name;                 //ÀÌ¸§
-        public string dialogue;             //´ë»ç
-        public string characterPath;        //Ä³¸¯ÅÍ ÀÌ¹ÌÁö °æ·Î
-        public string backGroundPath;        //Ä³¸¯ÅÍ ÀÌ¹ÌÁö °æ·Î
-        public int tweenType;               //Æ®À© ¹øÈ£
-        public int nextindex;               //´ÙÀ½ ´ë»ç 
-        public int selectIndex;             //¼±ÅÃ ¼³Á¤       
-        public string nextScene;            //´ÙÀ½ ¾À
+        public int index;                   //ï¿½ï¿½ï¿½ ï¿½ï¿½È£
+        public int speakerUIindex;          //ï¿½ï¿½ï¿½ï¿½Ä¿ ï¿½è¿­ ï¿½ï¿½È£
+        public string name;                 //ï¿½Ì¸ï¿½
+        public string dialogue;             //ï¿½ï¿½ï¿½
+        public string characterPath;        //Ä³ï¿½ï¿½ï¿½ï¿½ ï¿½Ì¹ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
+        public string backGroundPath;        //Ä³ï¿½ï¿½ï¿½ï¿½ ï¿½Ì¹ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
+        public int tweenType;               //Æ®ï¿½ï¿½ ï¿½ï¿½È£
+        public int nextindex;               //ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ 
+        public int selectIndex;             //ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½       
+        public string nextScene;            //ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½
 
     }
 
     [System.Serializable]
     public struct SelectData
     {
-        public int index;                   //¼±ÅÃÁö ¹øÈ£
-        public int selectAmount;            //¼±ÅÃÁö ¼ýÀÚ
+        public int index;                   //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È£
+        public int selectAmount;            //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
        
-        public string selectMain;         //¼±ÅÃ UI String
+        public string selectMain;         //ï¿½ï¿½ï¿½ï¿½ UI String
 
         public string select_01;
         public string select_02;
