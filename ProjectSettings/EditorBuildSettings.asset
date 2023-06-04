@@ -14,4 +14,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Text_005_Scene.unity
     guid: f69c861b8602b8c408c3899895c08362
+  - enabled: 1
+    path: Assets/Scenes/EasyMaze.unity
+    guid: 6d6b55a792954ff498a46d229ae70bc1
+  - enabled: 1
+    path: Assets/Scenes/HardMaze.unity
+    guid: f61679dc9e9f2fa419dc67120ae91a92
+  - enabled: 1
+    path: Assets/Scenes/FlowerAttack.unity
+    guid: 06234993aed57c549b881c89d23fc285
   m_configObjects: {}
