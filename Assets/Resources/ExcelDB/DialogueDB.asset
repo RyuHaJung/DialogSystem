@@ -1603,7 +1603,7 @@ MonoBehaviour:
       tweenType: 0
       nextindex: 154
       selectIndex: -100
-      nextScene: None
+      nextScene: Text_002_Scene
     - index: 154
       speakerUIindex: 1
       name: 
@@ -1728,7 +1728,7 @@ MonoBehaviour:
       tweenType: 0
       nextindex: 166
       selectIndex: -100
-      nextScene: None
+      nextScene: FlowerAttack
     - index: 166
       speakerUIindex: 1
       name: 
