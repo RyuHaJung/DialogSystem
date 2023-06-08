@@ -7,7 +7,7 @@ public class SceneChanger : MonoBehaviour
 {
     public void Change()
     {
-        SceneManager.LoadScene("Text_005_Scene");
+        SceneManager.LoadScene("Text_003_Scene");
     }
 
     
