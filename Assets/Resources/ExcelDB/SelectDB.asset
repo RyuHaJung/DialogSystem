@@ -16,11 +16,51 @@ MonoBehaviour:
   - name: selectData
     list:
     - index: 0
-      selectAmount: 3
-      selectMain: "\uC120\uD0DD\uC9C0\uB97C \uACE0\uB974\uC138\uC694"
-      select_01: "\uC2DC\uB044\uB7EC\uC6CC"
-      select_02: "\uAEBC\uC838"
-      select_03: "\uC8FD\uC5B4\uB3C4 \uC2EB\uB2E4"
-      nextindex_01: 13
-      nextindex_02: 14
-      nextindex_03: 15
+      selectAmount: 2
+      selectMain: "\uC5B4\uB514\uB85C \uBA3C\uC800 \uAC00\uC9C0?"
+      select_01: "\uAF43\uB4E4\uC758 \uC815\uC6D0"
+      select_02: "\uC560\uBC8C\uB808\uC758 \uBC84\uC12F \uC232"
+      select_03: 
+      nextindex_01: 98
+      nextindex_02: 122
+      nextindex_03: 0
+    - index: 1
+      selectAmount: 2
+      selectMain: "\uADF8\uB807\uB2E4\uBA74 \uB108\uB294 \uC5B4\uB5A4 \uACC4, \uBD84\uB958,
+        \uACFC\uC5D0 \uC18D\uD558\uB294 \uAF43\uC774\uB2C8?"
+      select_01: "\uB098\uB294 \uB3D9\uBB3C\uACC4 \uC0AC\uB78C\uACFC\uC5D0 \uC18D\uD558\uB294
+        \uC568\uB9AC\uC2A4 \uAF43\uC774\uB77C\uACE0 \uD574"
+      select_02: "\uB098\uB294 \uAF43\uC774 \uC544\uB2C8\uB77C \uC0AC\uB78C\uC774\uC57C"
+      select_03: 
+      nextindex_01: 138
+      nextindex_02: 154
+      nextindex_03: 0
+    - index: 2
+      selectAmount: 2
+      selectMain: "\uC560\uBC8C\uB808\uC758 \uBB3C\uB2F4\uBC30\uB97C \uC8FC\uC6CC\uC904\uAE4C?"
+      select_01: "\uC8FC\uC6CC\uC900\uB2E4"
+      select_02: "\uC8FC\uC6CC\uC8FC\uC9C0 \uC54A\uB294\uB2E4"
+      select_03: 
+      nextindex_01: 166
+      nextindex_02: 172
+      nextindex_03: 0
+    - index: 3
+      selectAmount: 2
+      selectMain: "\uBAA8\uC790\uC7A5\uC218\uAC00 \uCC28\uB97C \uAD8C\uD558\uC9C0\uB9CC
+        \uC544\uBB34\uAC83\uB3C4 \uC5C6\uB2E4 "
+      select_01: "\uC74C? \uC2E4\uB840\uC9C0\uB9CC \uCC28\uAC00 \uC5C6\uB294 \uAC78\uC694?"
+      select_02: "\uC624 \uCC38 \uB9DB\uC788\uB294 \uCC28\uB124\uC694(\uB9C8\uC2DC\uB294
+        \uC2DC\uB289\uC744 \uD558\uBA70)"
+      select_03: 
+      nextindex_01: 221
+      nextindex_02: 228
+      nextindex_03: 0
+    - index: 4
+      selectAmount: 2
+      selectMain: "\uC5B4\uB290\uCABD\uC73C\uB85C \uAC00\uC9C0?"
+      select_01: "\uC624\uB978\uCABD"
+      select_02: "\uC67C\uCABD"
+      select_03: 
+      nextindex_01: 273
+      nextindex_02: 274
+      nextindex_03: 0
