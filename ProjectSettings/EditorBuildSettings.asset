@@ -6,17 +6,20 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/StartScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
     path: Assets/Scenes/EasyMaze.unity
     guid: 6d6b55a792954ff498a46d229ae70bc1
+  - enabled: 1
+    path: Assets/Scenes/EndScene.unity
+    guid: 3fe1387ccbfacec40a8c62346b5796a9
   - enabled: 1
     path: Assets/Scenes/FlowerAttack.unity
     guid: 06234993aed57c549b881c89d23fc285
   - enabled: 1
     path: Assets/Scenes/HardMaze.unity
     guid: f61679dc9e9f2fa419dc67120ae91a92
-  - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
     path: Assets/Scenes/TEST.unity
     guid: 6d81269e5da980043981497a99cc241b
