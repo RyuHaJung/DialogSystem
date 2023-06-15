@@ -132,7 +132,7 @@ MonoBehaviour:
       speakerUIindex: 0
       name: "\uB2E4\uC774\uC560\uB098(\uACE0\uC591\uC774)"
       dialogue: "\uC57C\uC639~"
-      characterPath: Character/Cat
+      characterPath: Character/cat 1
       BackGroundPath: None
       tweenType: 0
       nextindex: 12
