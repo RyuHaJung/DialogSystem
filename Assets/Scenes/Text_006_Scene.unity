@@ -233,7 +233,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogSystem: {fileID: 251017554}
-  Dialogindex: 380
+  Dialogindex: 407
 --- !u!114 &251017554
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2203,7 +2203,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.6132076, g: 0, b: 0.4661572, a: 1}
+  m_Color: {r: 0.75686276, g: 0.8980392, b: 0.833369, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

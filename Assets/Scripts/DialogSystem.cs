@@ -106,6 +106,7 @@ public class DialogSystem : MonoBehaviour
             {
                 selectData[ArrayCursor].index = param.index;
                 selectData[ArrayCursor].selectAmount = param.selectAmount;
+                selectData[ArrayCursor].selectMain = param.selectMain;
                 selectData[ArrayCursor].select_01 = param.select_01;
                 selectData[ArrayCursor].select_02 = param.select_02;
                 selectData[ArrayCursor].select_03 = param.select_03;
