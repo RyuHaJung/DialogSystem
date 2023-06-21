@@ -2861,7 +2861,7 @@ MonoBehaviour:
       speakerUIindex: 0
       name: 
       dialogue: "\uC624! \uC7A5\uBBF8\uB97C \uBE68\uAC1B\uAC8C \uCE60\uD558\uC138"
-      characterPath: Character/Alice1
+      characterPath: Character/card1
       BackGroundPath: BackGround/00012
       tweenType: 0
       nextindex: 277
