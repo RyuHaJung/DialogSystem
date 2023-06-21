@@ -2295,7 +2295,7 @@ MonoBehaviour:
       selectIndex: 3
       nextScene: None
     - index: 221
-      speakerUIindex: 1
+      speakerUIindex: 0
       name: 
       dialogue: "\uCC28\uAC00 \uC5C6\uB2E4\uB2C8?"
       characterPath: Character/hatter
@@ -2305,7 +2305,7 @@ MonoBehaviour:
       selectIndex: -100
       nextScene: None
     - index: 222
-      speakerUIindex: 1
+      speakerUIindex: 0
       name: 
       dialogue: "\uC5EC\uAE30 \uC788\uB294 \uAC78?"
       characterPath: Character/hatter
@@ -2315,7 +2315,7 @@ MonoBehaviour:
       selectIndex: -100
       nextScene: None
     - index: 223
-      speakerUIindex: 1
+      speakerUIindex: 0
       name: 
       dialogue: "\uBAA8\uC790\uC7A5\uC218\uAC00 \uCC3B\uC794\uC744 \uB4A4\uC9D1\uC790
         \uCC28\uAC00 \uB098\uC628\uB2E4"
@@ -2326,7 +2326,7 @@ MonoBehaviour:
       selectIndex: -100
       nextScene: None
     - index: 224
-      speakerUIindex: 0
+      speakerUIindex: 1
       name: 
       dialogue: "\uD558\uC9C0\uB9CC \uC544\uAE4C \uC804\uC5D0\uB294"
       characterPath: Character/Alice1
@@ -2336,7 +2336,7 @@ MonoBehaviour:
       selectIndex: -100
       nextScene: None
     - index: 225
-      speakerUIindex: 1
+      speakerUIindex: 0
       name: 
       dialogue: "\uCC38 \uC774\uC0C1\uD55C \uC18C\uB140\uC57C"
       characterPath: Character/hatter
@@ -2346,7 +2346,7 @@ MonoBehaviour:
       selectIndex: -100
       nextScene: None
     - index: 226
-      speakerUIindex: 1
+      speakerUIindex: 0
       name: 
       dialogue: "\uADF8\uB798 \uCC28\uB97C \uAC00\uB4DD \uB530\uB77C\uC8FC\uC5C8\uB294\uB370
         \uCC28\uAC00 \uC5C6\uB2E4\uB2C8"
@@ -2357,7 +2357,7 @@ MonoBehaviour:
       selectIndex: -100
       nextScene: None
     - index: 227
-      speakerUIindex: 1
+      speakerUIindex: 0
       name: 
       dialogue: "\uB9DE\uC544 \uC544\uC8FC \uC774\uC0C1\uD574"
       characterPath: Character/hatter
@@ -2365,7 +2365,7 @@ MonoBehaviour:
       tweenType: 0
       nextindex: 228
       selectIndex: -100
-      nextScene: None
+      nextScene: Text_003_Scene
     - index: 228
       speakerUIindex: 0
       name: 
@@ -4475,7 +4475,7 @@ MonoBehaviour:
       tweenType: 0
       nextindex: 434
       selectIndex: -100
-      nextScene: Text_004_Scene
+      nextScene: Text_005_Scene
     - index: 434
       speakerUIindex: 0
       name: 
@@ -4507,7 +4507,7 @@ MonoBehaviour:
       tweenType: 0
       nextindex: 437
       selectIndex: -100
-      nextScene: Text_005_Scene
+      nextScene: Text_006_Scene
     - index: 437
       speakerUIindex: 0
       name: 
@@ -4549,4 +4549,4 @@ MonoBehaviour:
       tweenType: 0
       nextindex: 441
       selectIndex: -100
-      nextScene: Text_006_Scene
+      nextScene: Text_007_Scene
