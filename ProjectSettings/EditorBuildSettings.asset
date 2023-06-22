@@ -12,17 +12,11 @@ EditorBuildSettings:
     path: Assets/Scenes/EasyMaze.unity
     guid: 6d6b55a792954ff498a46d229ae70bc1
   - enabled: 1
-    path: Assets/Scenes/EndScene.unity
-    guid: 3fe1387ccbfacec40a8c62346b5796a9
-  - enabled: 1
     path: Assets/Scenes/FlowerAttack.unity
     guid: 06234993aed57c549b881c89d23fc285
   - enabled: 1
     path: Assets/Scenes/HardMaze.unity
     guid: f61679dc9e9f2fa419dc67120ae91a92
-  - enabled: 0
-    path: Assets/Scenes/TEST.unity
-    guid: 6d81269e5da980043981497a99cc241b
   - enabled: 1
     path: Assets/Scenes/Text_001_Scene.unity
     guid: 8a7840c6b2d036a408fabfc9cbbdab33
@@ -34,14 +28,17 @@ EditorBuildSettings:
     guid: b08edb724bc22da4abbc118c278b6c30
   - enabled: 1
     path: Assets/Scenes/Text_004_Scene.unity
-    guid: 00fd2940d474ab44eb9dba2e770f265c
-  - enabled: 1
-    path: Assets/Scenes/Text_005_Scene.unity
     guid: 4d1bec739a433024c962267aabc88140
   - enabled: 1
-    path: Assets/Scenes/Text_006_Scene.unity
+    path: Assets/Scenes/Text_005_Scene.unity
     guid: be05f232679150247ae04c78aaed6d97
   - enabled: 1
+    path: Assets/Scenes/Text_006_Scene.unity
+    guid: 20936b4ca71f97f4ebc419ac1b10758a
+  - enabled: 1
     path: Assets/Scenes/Text_007_Scene.unity
-    guid: b308c36b7ab00de408d176c3fd128503
+    guid: 8aaa569d19b8fb8498e58116d2ae3620
+  - enabled: 1
+    path: Assets/Scenes/EndScene.unity
+    guid: 3fe1387ccbfacec40a8c62346b5796a9
   m_configObjects: {}

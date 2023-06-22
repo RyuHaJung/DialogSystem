@@ -49,8 +49,7 @@ MonoBehaviour:
       selectMain: "\uBAA8\uC790\uC7A5\uC218\uAC00 \uCC28\uB97C \uAD8C\uD558\uC9C0\uB9CC
         \uC544\uBB34\uAC83\uB3C4 \uC5C6\uB2E4 "
       select_01: "\uC74C? \uC2E4\uB840\uC9C0\uB9CC \uCC28\uAC00 \uC5C6\uB294 \uAC78\uC694?"
-      select_02: "\uC624 \uCC38 \uB9DB\uC788\uB294 \uCC28\uB124\uC694(\uB9C8\uC2DC\uB294
-        \uC2DC\uB289\uC744 \uD558\uBA70)"
+      select_02: "\uC624.. \uC74C \uCC28\uAC00 \uCC38 \uB9DB\uC788\uB124\uC694"
       select_03: 
       nextindex_01: 221
       nextindex_02: 228
