@@ -1456,8 +1456,8 @@ MonoBehaviour:
     - index: 140
       speakerUIindex: 1
       name: 
-      dialogue: "\uC544\uB9C8 \uC0C8\uB85C \uAC1C\uBC1C\uB41C \uC885\uC774\uB77C\uC11C
-        \uCC98\uC74C \uB4E4\uC5B4\uBCFC\uAEBC\uC57C"
+      dialogue: "\uC74C...\uC544\uB9C8 \uC0C8\uB85C \uAC1C\uBC1C\uB41C \uC885\uC774\uB77C\uC11C
+        \uCC98\uC74C \uB4E4\uC5B4\uBCFC\uAEBC\uC57C!"
       characterPath: Character/Alice1
       BackGroundPath: None
       tweenType: 0
@@ -1467,7 +1467,8 @@ MonoBehaviour:
     - index: 141
       speakerUIindex: 0
       name: 
-      dialogue: "\uADF8\uB807\uAD6C\uB098 \uC5EC\uAE30\uC11C \uC0B4\uB824\uACE0 \uC654\uB2C8?"
+      dialogue: "\uADF8\uB807\uAD6C\uB098! \uC5EC\uAE30\uC11C \uC0B4\uB824\uACE0
+        \uC654\uB2C8?"
       characterPath: Character/f1
       BackGroundPath: None
       tweenType: 0
@@ -3617,7 +3618,7 @@ MonoBehaviour:
     - index: 350
       speakerUIindex: 1
       name: 
-      dialogue: "\uC5B4 \uD560 \uC904 \uBAA8\uB985\uB2C8\uB2E4"
+      dialogue: "\uC5B4 \uD560 \uC904 \uBAA8\uB985\uB2C8\uB2E4 \uC5EC\uC655\uD3D0\uD558"
       characterPath: Character/Alice1
       BackGroundPath: None
       tweenType: 0
@@ -3638,7 +3639,8 @@ MonoBehaviour:
     - index: 352
       speakerUIindex: 1
       name: 
-      dialogue: "\uC54C\uB824\uC8FC\uC2DC\uBA74 \uD560 \uC218 \uC788\uC9C0 \uC54A\uC744\uAE4C\uC694?"
+      dialogue: "\u3148 \uC800\uAE30 \uC54C\uB824\uC8FC\uC2DC\uBA74 \uD560 \uC218
+        \uC788\uC9C0 \uC54A\uC744\uAE4C\uC694?"
       characterPath: Character/Alice1
       BackGroundPath: None
       tweenType: 0
@@ -3648,8 +3650,8 @@ MonoBehaviour:
     - index: 353
       speakerUIindex: 1
       name: 
-      dialogue: "\uC5EC\uC655\uB2D8\uC774 \uD558\uC2DC\uB294 \uAC78 \uBCF4\uBA74
-        \uD560 \uC218 \uC788\uC744 \uAC83 \uAC19\uC544\uC694"
+      dialogue: "\uC5EC\uC655\uD3D0\uD558\uAC00 \uBA4B\uC9C0\uAC8C \uD558\uB294 \uBAA8\uC2B5\uC744
+        \uBCF4\uBA74 \uD560 \uC218 \uC788\uC744 \uAC83 \uAC19\uC544\uC694"
       characterPath: Character/Alice1
       BackGroundPath: None
       tweenType: 0
@@ -3659,7 +3661,7 @@ MonoBehaviour:
     - index: 354
       speakerUIindex: 0
       name: 
-      dialogue: "\uD750\uC74C"
+      dialogue: "\uD750\uC74C~"
       characterPath: Character/HQ1
       BackGroundPath: None
       tweenType: 0
@@ -3669,7 +3671,7 @@ MonoBehaviour:
     - index: 355
       speakerUIindex: 0
       name: 
-      dialogue: "\uADF8\uB798 \uC88B\uC544 \uADF8\uB7FC \uD06C\uB9AC\uCF13 \uACBD\uAE30\uB97C"
+      dialogue: "\uADF8\uB798 \uC88B\uB2E4 \uADF8\uB7FC \uD06C\uB9AC\uCF13 \uACBD\uAE30\uB97C"
       characterPath: Character/HQ1
       BackGroundPath: None
       tweenType: 0
@@ -3867,7 +3869,8 @@ MonoBehaviour:
       speakerUIindex: 0
       name: 
       dialogue: "\uB0B4\uAC00 \uB0B4\uB294 3\uAC00\uC9C0\uC758 \uD034\uC988\uB97C
-        \uBAA8\uB450 \uB9DE\uCD94\uBA74 \uC0C1\uC744 \uC8FC\uB3C4\uB85D \uD558\uB9C8"
+        \uBAA8\uB450 \uB9DE\uCD94\uBA74 \uC0C1\uC744 \uC8FC\uB3C4\uB85D \uD558\uB9C8
+        \uB0B4 \uC804\uC18D \uC2DC\uB140\u3131"
       characterPath: Character/HQ1
       BackGroundPath: None
       tweenType: 0
@@ -3940,8 +3943,8 @@ MonoBehaviour:
     - index: 381
       speakerUIindex: 0
       name: 
-      dialogue: "\uD558\uC9C0\uB9CC \uB9CC\uC57D \uB2E4 \uB9DE\uCD94\uC9C0 \uBABB\uD55C
-        \uB2E4\uBA74 \uB108\uB97C \uC0AC\uD615\uC5D0 \uCCD0\uD558\uACA0\uB2E4!"
+      dialogue: "\uD558\uC9C0\uB9CC \uB9CC\uC57D \uB2E4 \uB9DE\uCD94\uC9C0 \uBABB\uD55C\uB2E4\uBA74
+        \uB108\uB97C \uC0AC\uD615\uC5D0 \uCCD0\uD558\uACA0\uB2E4!"
       characterPath: Character/HQ1
       BackGroundPath: None
       tweenType: 0
@@ -3972,7 +3975,7 @@ MonoBehaviour:
     - index: 384
       speakerUIindex: 1
       name: 
-      dialogue: "\uD558\uC9C0\uB9CC "
+      dialogue: "\uD558\uC9C0\uB9CC \uC5EC\uC655\uD3D0\uD558 \uC800\uB294"
       characterPath: Character/Alice1
       BackGroundPath: None
       tweenType: 0
