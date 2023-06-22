@@ -215,7 +215,7 @@ MonoBehaviour:
       speakerUIindex: 1
       name: "\uC568\uB9AC\uC2A4"
       dialogue: "\uADF8\uB7FC \uB4E4\uC5B4\uAC00 \uBCFC\uAE4C"
-      characterPath: Character/Alice2
+      characterPath: Character/Alice1
       BackGroundPath: None
       tweenType: 0
       nextindex: 20
@@ -226,7 +226,7 @@ MonoBehaviour:
       name: "\uC568\uB9AC\uC2A4"
       dialogue: "\uC5C4\uCCAD \uC5B4\uB461\uB3C4 \uC881\uB124 \uC544\uBB34\uAC83\uB3C4
         \uC548\uBCF4"
-      characterPath: Character/Alice2
+      characterPath: Character/Alice1
       BackGroundPath: None
       tweenType: 0
       nextindex: 21
