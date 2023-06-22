@@ -4007,7 +4007,7 @@ MonoBehaviour:
       name: 
       dialogue: "\uCCAB \uBC88\uC9F8 \uBB38\uC81C! "
       characterPath: Character/Rabbit2
-      BackGroundPath: None
+      BackGroundPath: BackGround/00015
       tweenType: 0
       nextindex: 388
       selectIndex: -100
@@ -4018,7 +4018,7 @@ MonoBehaviour:
       dialogue: "\uC5BC\uAD74\uACFC \uB450 \uC190\uC774 \uC788\uC9C0\uB9CC \uBAB8\uC774
         \uC5C6\uB294 \uAC83\uC740 \uBB34\uC5C7\uC778\uC9C0 \uB9DE\uCD94\uC2DC\uC624"
       characterPath: Character/Rabbit2
-      BackGroundPath: None
+      BackGroundPath: BackGround/00015
       tweenType: 0
       nextindex: 389
       selectIndex: 5
@@ -4028,7 +4028,7 @@ MonoBehaviour:
       name: 
       dialogue: "\uC815\uB2F5\uC785\uB2C8\uB2E4!"
       characterPath: Character/Rabbit2
-      BackGroundPath: None
+      BackGroundPath: BackGround/00015
       tweenType: 0
       nextindex: 390
       selectIndex: -100
@@ -4038,7 +4038,7 @@ MonoBehaviour:
       name: 
       dialogue: "\uD750\uC74C"
       characterPath: Character/HQ1
-      BackGroundPath: None
+      BackGroundPath: BackGround/00015
       tweenType: 0
       nextindex: 391
       selectIndex: -100
@@ -4048,7 +4048,7 @@ MonoBehaviour:
       name: 
       dialogue: "\uD1A0\uB07C! \uB2E4\uC74C \uBB38\uC81C\uB97C \uB0B4!"
       characterPath: Character/HQ1
-      BackGroundPath: None
+      BackGroundPath: BackGround/00015
       tweenType: 0
       nextindex: 392
       selectIndex: -100
@@ -4058,7 +4058,7 @@ MonoBehaviour:
       name: 
       dialogue: "\uB135 \uC5EC\uC655 \uD3D0\uD558 "
       characterPath: Character/Rabbit2
-      BackGroundPath: None
+      BackGroundPath: BackGround/00015
       tweenType: 0
       nextindex: 393
       selectIndex: -100
@@ -4068,7 +4068,7 @@ MonoBehaviour:
       name: 
       dialogue: "\uADF8\uB7FC \uB450 \uBC88\uC9F8 \uBB38\uC81C!"
       characterPath: Character/Rabbit2
-      BackGroundPath: None
+      BackGroundPath: BackGround/00015
       tweenType: 0
       nextindex: 394
       selectIndex: -100
@@ -4078,7 +4078,7 @@ MonoBehaviour:
       name: 
       dialogue: What has a neck but no head?
       characterPath: Character/Rabbit2
-      BackGroundPath: None
+      BackGroundPath: BackGround/00015
       tweenType: 0
       nextindex: 395
       selectIndex: 6
@@ -4088,7 +4088,7 @@ MonoBehaviour:
       name: 
       dialogue: "\u3148 \uC815\uB2F5\uC785\uB2C8\uB2E4.."
       characterPath: Character/Rabbit2
-      BackGroundPath: None
+      BackGroundPath: BackGround/00015
       tweenType: 0
       nextindex: 396
       selectIndex: -100
@@ -4098,7 +4098,7 @@ MonoBehaviour:
       name: 
       dialogue: "\u2026\uD1A0\uB07C"
       characterPath: Character/HQ1
-      BackGroundPath: None
+      BackGroundPath: BackGround/00015
       tweenType: 0
       nextindex: 397
       selectIndex: -100
@@ -4108,7 +4108,7 @@ MonoBehaviour:
       name: 
       dialogue: "\u3134\uB124 \uC704 \uC704\uB300\uD558\uC2E0 \uC5EC\uC655\uD3D0\uD558"
       characterPath: Character/Rabbit2
-      BackGroundPath: None
+      BackGroundPath: BackGround/00015
       tweenType: 0
       nextindex: 398
       selectIndex: -100
@@ -4118,7 +4118,7 @@ MonoBehaviour:
       name: 
       dialogue: "\uB2E4\uC74C \uBB38\uC81C\uB97C \uB0B4\uAC70\uB77C\u2026"
       characterPath: Character/HQ1
-      BackGroundPath: None
+      BackGroundPath: BackGround/00015
       tweenType: 0
       nextindex: 399
       selectIndex: -100
@@ -4128,7 +4128,7 @@ MonoBehaviour:
       name: 
       dialogue: "\uC608!"
       characterPath: Character/Rabbit2
-      BackGroundPath: None
+      BackGroundPath: BackGround/00015
       tweenType: 0
       nextindex: 400
       selectIndex: -100
@@ -4139,7 +4139,7 @@ MonoBehaviour:
       dialogue: "\uC5B4\uC81C\uB294 YROTSIH\uC774\uACE0 \uB0B4\uC77C\uC740 YRETSYM\uC774\uB2E4
         \uADF8\uB7FC \uC624\uB298\uC740 \uBB34\uC5C7\uC778\uAC00?"
       characterPath: Character/Rabbit2
-      BackGroundPath: None
+      BackGroundPath: BackGround/00015
       tweenType: 0
       nextindex: 401
       selectIndex: 7
@@ -4149,7 +4149,7 @@ MonoBehaviour:
       name: 
       dialogue: "\u3148 \uC800 \uC815\uB2E4\uB2F5\uC785\uB2C8\uB2E4\u2026.."
       characterPath: Character/Rabbit2
-      BackGroundPath: None
+      BackGroundPath: BackGround/00015
       tweenType: 0
       nextindex: 402
       selectIndex: -100
@@ -4160,7 +4160,7 @@ MonoBehaviour:
       dialogue: "\uC800 \uC5EC\uC655\uD3D0\uD558 \uC81C\uAC00 \uC815\uB2F5\uC744
         \uB9DE\uCDC4\uC73C\uB2C8 \uC800\uC5D0\uAC8C \uAE38\uC744 \uC54C"
       characterPath: Character/Alice1
-      BackGroundPath: None
+      BackGroundPath: BackGround/00015
       tweenType: 0
       nextindex: 403
       selectIndex: -100
@@ -4170,7 +4170,7 @@ MonoBehaviour:
       name: 
       dialogue: "\uC544\uB2C8!"
       characterPath: Character/HQ2
-      BackGroundPath: None
+      BackGroundPath: BackGround/00015
       tweenType: 0
       nextindex: 404
       selectIndex: -100
@@ -4180,7 +4180,7 @@ MonoBehaviour:
       name: 
       dialogue: "\uC774\uACF3\uC758 \uBAA8\uB4E0 \uAE38\uC740 \uB098\uC758 \uAE38\uC774\uB2E4!!!"
       characterPath: Character/HQ2
-      BackGroundPath: None
+      BackGroundPath: BackGround/00015
       tweenType: 0
       nextindex: 405
       selectIndex: -100
@@ -4190,7 +4190,7 @@ MonoBehaviour:
       name: 
       dialogue: "\uC5EC\uBD10\uB77C \uB2F9\uC7A5 \uC800 \uC18C\uB140\uB97C \uAC00\uB450\uC5B4\uB77C "
       characterPath: Character/HQ2
-      BackGroundPath: None
+      BackGroundPath: BackGround/00015
       tweenType: 0
       nextindex: 406
       selectIndex: -100
@@ -4200,7 +4200,7 @@ MonoBehaviour:
       name: 
       dialogue: "\uADF8\uB9AC\uACE0 \uBAA9\uC744 \uC798\uB77C\uBC84\uB824\uB77C!!!"
       characterPath: Character/HQ2
-      BackGroundPath: None
+      BackGroundPath: BackGround/00015
       tweenType: 0
       nextindex: 407
       selectIndex: -100
@@ -4464,7 +4464,7 @@ MonoBehaviour:
       name: 
       dialogue: "\uC624\uD638\uD638\uD638\uD638 \uB2F5\uC744 \uB9DE\uCD94\uC9C0 \uBABB\uD588\uAD6C\uB098"
       characterPath: Character/HQ1
-      BackGroundPath: None
+      BackGroundPath: BackGround/00015
       tweenType: 0
       nextindex: 433
       selectIndex: -100
@@ -4475,7 +4475,7 @@ MonoBehaviour:
       dialogue: "\uD558\uC9C0\uB9CC \uB098\uB294 \uB108\uADF8\uB7EC\uC6B0\uB2C8 \uB2E4\uC2DC
         \uD55C \uBC88 \uAE30\uD68C\uB97C \uC8FC\uC9C0"
       characterPath: Character/HQ1
-      BackGroundPath: None
+      BackGroundPath: BackGround/00015
       tweenType: 0
       nextindex: 434
       selectIndex: -100
@@ -4496,7 +4496,7 @@ MonoBehaviour:
       dialogue: "\uC548\uD0C0\uAE5D\uC9C0\uB9CC \uB108\uC5D0\uAC8C \uC904 \uAE38\uC744
         \uC5C6\uB2E4!"
       characterPath: Character/HQ1
-      BackGroundPath: None
+      BackGroundPath: BackGround/00015
       tweenType: 0
       nextindex: 436
       selectIndex: -100
@@ -4507,7 +4507,7 @@ MonoBehaviour:
       dialogue: "\uD558\uC9C0\uB9CC \uB098\uB294 \uB108\uADF8\uB7EC\uC6B0\uB2C8 \uB2E4\uC2DC
         \uD55C \uBC88 \uAE30\uD68C\uB97C \uC8FC\uC9C0!"
       characterPath: Character/HQ1
-      BackGroundPath: None
+      BackGroundPath: BackGround/00015
       tweenType: 0
       nextindex: 437
       selectIndex: -100
@@ -4527,7 +4527,7 @@ MonoBehaviour:
       name: 
       dialogue: "\uC5ED\uC2DC \uBABB \uB9DE\uCD9C \uC904 \uC54C\uC558\uB2E4! "
       characterPath: Character/HQ1
-      BackGroundPath: None
+      BackGroundPath: BackGround/00015
       tweenType: 0
       nextindex: 439
       selectIndex: -100
@@ -4538,7 +4538,7 @@ MonoBehaviour:
       dialogue: "\uC774 \uB098\uB77C\uC758 \uBAA8\uB4E0 \uAE38\uC740 \uC55E\uC73C\uB85C\uB3C4
         \uC601\uC6D0\uD788 \uB098\uC758 \uAE38\uC774\uB2E4!"
       characterPath: Character/HQ1
-      BackGroundPath: None
+      BackGroundPath: BackGround/00015
       tweenType: 0
       nextindex: 440
       selectIndex: -100
@@ -4549,7 +4549,7 @@ MonoBehaviour:
       dialogue: "\uC5EC\uBD10\uB77C \uC800 \uC18C\uB140\uB97C \uC0AC\uD615\uC5D0
         \uCC98\uD574\uB77C!"
       characterPath: Character/HQ1
-      BackGroundPath: None
+      BackGroundPath: BackGround/00015
       tweenType: 0
       nextindex: 441
       selectIndex: -100

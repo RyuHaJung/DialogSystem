@@ -86,7 +86,7 @@ MonoBehaviour:
       selectAmount: 2
       selectMain: "\uC5B4\uC81C\uB294 YROTSIH\uC774\uACE0 \uB0B4\uC77C\uC740 YRETSYM\uC774\uB2E4
         \uADF8\uB7FC \uC624\uB298\uC740 \uBB34\uC5C7\uC778\uAC00?"
-      select_01: "\uD604\uC7AC"
+      select_01: yadot
       select_02: Present
       select_03: 
       nextindex_01: 437
