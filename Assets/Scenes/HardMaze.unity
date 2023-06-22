@@ -1389,7 +1389,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0adaede74a0eb3d43a2410ea2dcda0c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  finText: {fileID: 0}
+  finText: {fileID: 685342426}
   BackButton: {fileID: 1604647724}
 --- !u!212 &198604006
 SpriteRenderer:

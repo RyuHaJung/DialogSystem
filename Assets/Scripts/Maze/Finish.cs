@@ -18,10 +18,10 @@ public class Finish : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         finText.gameObject.SetActive(true);
-        ItemSound.FinishSound();
+        //ItemSound.FinishSound();
 
         BackButton.gameObject.SetActive(true);
-        ItemSound.FinishSound();
+        //ItemSound.FinishSound();
     }
 
     // Update is called once per frame

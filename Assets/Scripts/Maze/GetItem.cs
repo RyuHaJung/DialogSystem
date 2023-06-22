@@ -7,7 +7,7 @@ public class GetItem : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Destroy(gameObject);
-        ItemSound.GetItemSound();
+        //ItemSound.GetItemSound();
     }
     // Start is called before the first frame update
     void Start()
